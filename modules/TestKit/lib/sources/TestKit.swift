@@ -1,11 +1,3 @@
-import SamplePackageB
-import GeoURI
+import SamplePackageA
 
-class TestKit {
-    let sample = SampleStruct()
-    
-    func thisIs() {
-        GeoURI(string: "asd")
-        print(String(describing: sample))
-    }
-}
+class TestKit {}
