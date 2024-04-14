@@ -1,0 +1,6 @@
+module Pods_SampleSPM_SampleSPMPackageIssue_Tests {
+  umbrella header "Pods-SampleSPM-SampleSPMPackageIssue Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

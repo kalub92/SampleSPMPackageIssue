@@ -1,0 +1,33 @@
+PODS:
+  - DGCharts (5.0.0):
+    - DGCharts/Core (= 5.0.0)
+  - DGCharts/Core (5.0.0)
+  - Nimble (11.2.2)
+  - Quick (6.1.0)
+  - TestKit (1.0)
+
+DEPENDENCIES:
+  - DGCharts (= 5.0)
+  - Nimble (~> 11.2.0)
+  - Quick (~> 6.1.0)
+  - TestKit (from `modules/TestKit/TestKit.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - DGCharts
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  TestKit:
+    :path: modules/TestKit/TestKit.podspec
+
+SPEC CHECKSUMS:
+  DGCharts: 6e0cf2644e8f81ad13f04caa8bc18502870a1c54
+  Nimble: 01a944d4d07eab73617dfd4b32ac9f7152ac34de
+  Quick: 6676ffb409bf04abba2ff23902af2407bfc6ac90
+  TestKit: 5763dae86d57be233b618f1b999ffb05f3c1da02
+
+PODFILE CHECKSUM: 09d5c28a6fa1b5a8610d8165e0d7a135854e5928
+
+COCOAPODS: 1.12.1

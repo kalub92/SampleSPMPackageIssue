@@ -1,0 +1,186 @@
+{
+  "cLanguageStandard" : null,
+  "cxxLanguageStandard" : null,
+  "dependencies" : [
+    {
+      "sourceControl" : [
+        {
+          "identity" : "samplepackageainterface",
+          "location" : {
+            "remote" : [
+              {
+                "urlString" : "https://github.com/kalub92/SamplePackageAInterface.git"
+              }
+            ]
+          },
+          "productFilter" : null,
+          "requirement" : {
+            "branch" : [
+              "main"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sourceControl" : [
+        {
+          "identity" : "samplepackageb",
+          "location" : {
+            "remote" : [
+              {
+                "urlString" : "https://github.com/kalub92/SamplePackageB.git"
+              }
+            ]
+          },
+          "productFilter" : null,
+          "requirement" : {
+            "branch" : [
+              "main"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "name" : "SamplePackageA",
+  "packageKind" : {
+    "root" : [
+      "/Users/cstultz/Documents/GitHub/SampleSPMPackageIssue/.spm.pods/.umbrella/.build/checkouts/SamplePackageA"
+    ]
+  },
+  "pkgConfig" : null,
+  "platforms" : [
+
+  ],
+  "products" : [
+    {
+      "name" : "SamplePackageA",
+      "settings" : [
+
+      ],
+      "targets" : [
+        "SamplePackageA"
+      ],
+      "type" : {
+        "library" : [
+          "automatic"
+        ]
+      }
+    },
+    {
+      "name" : "SamplePackageAConfig",
+      "settings" : [
+
+      ],
+      "targets" : [
+        "SamplePackageAConfig"
+      ],
+      "type" : {
+        "library" : [
+          "automatic"
+        ]
+      }
+    }
+  ],
+  "providers" : null,
+  "swiftLanguageVersions" : null,
+  "targets" : [
+    {
+      "dependencies" : [
+        {
+          "product" : [
+            "SamplePackageB",
+            "SamplePackageB",
+            null,
+            {
+              "platformNames" : [
+                "ios"
+              ]
+            }
+          ]
+        },
+        {
+          "product" : [
+            "3rdPartyAdapter",
+            "SamplePackageB",
+            null,
+            {
+              "platformNames" : [
+                "ios"
+              ]
+            }
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "SamplePackageA",
+      "packageAccess" : true,
+      "resources" : [
+
+      ],
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "product" : [
+            "SamplePackageAInterface",
+            "SamplePackageAInterface",
+            null,
+            null
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "SamplePackageAConfig",
+      "packageAccess" : true,
+      "resources" : [
+        {
+          "path" : "Resources",
+          "rule" : {
+            "process" : {
+
+            }
+          }
+        }
+      ],
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "SamplePackageA",
+            null
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "SamplePackageATests",
+      "packageAccess" : true,
+      "resources" : [
+
+      ],
+      "settings" : [
+
+      ],
+      "type" : "test"
+    }
+  ],
+  "toolsVersion" : {
+    "_version" : "5.9.0"
+  }
+}

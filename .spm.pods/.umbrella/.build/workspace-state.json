@@ -1,0 +1,102 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "samplepackageb",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/kalub92/SamplePackageB.git",
+          "name" : "SamplePackageB"
+        },
+        "path" : "/Users/cstultz/Documents/GitHub/SampleSPMPackageIssue/.spm.pods/.umbrella/.build/checkouts/SamplePackageB/Frameworks/OneSignalExtension.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "OneSignalExtension"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "samplepackageb",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/kalub92/SamplePackageB.git",
+          "name" : "SamplePackageB"
+        },
+        "path" : "/Users/cstultz/Documents/GitHub/SampleSPMPackageIssue/.spm.pods/.umbrella/.build/checkouts/SamplePackageB/Frameworks/OneSignalCore.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "OneSignalCore"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "samplepackageb",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/kalub92/SamplePackageB.git",
+          "name" : "SamplePackageB"
+        },
+        "path" : "/Users/cstultz/Documents/GitHub/SampleSPMPackageIssue/.spm.pods/.umbrella/.build/checkouts/SamplePackageB/Frameworks/OneSignal.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "OneSignal"
+      }
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "samplepackagea",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/kalub92/SamplePackageA.git",
+          "name" : "SamplePackageA"
+        },
+        "state" : {
+          "checkoutState" : {
+            "branch" : "main",
+            "revision" : "ae8fa9e4a7bbddb541026a69a204dff15cd0a0c0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "SamplePackageA"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "samplepackageainterface",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/kalub92/SamplePackageAInterface.git",
+          "name" : "SamplePackageAInterface"
+        },
+        "state" : {
+          "checkoutState" : {
+            "branch" : "main",
+            "revision" : "7e98beb8a9bbe64fdd0b233856b50a1909752277"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "SamplePackageAInterface"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "samplepackageb",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/kalub92/SamplePackageB.git",
+          "name" : "SamplePackageB"
+        },
+        "state" : {
+          "checkoutState" : {
+            "branch" : "main",
+            "revision" : "4869b0d3e4302c725ab3b2f1897574f910c16500"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "SamplePackageB"
+      }
+    ]
+  },
+  "version" : 6
+}

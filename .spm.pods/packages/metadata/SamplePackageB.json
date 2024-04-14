@@ -1,0 +1,265 @@
+{
+  "cLanguageStandard" : null,
+  "cxxLanguageStandard" : null,
+  "dependencies" : [
+
+  ],
+  "name" : "SamplePackageB",
+  "packageKind" : {
+    "root" : [
+      "/Users/cstultz/Documents/GitHub/SampleSPMPackageIssue/.spm.pods/.umbrella/.build/checkouts/SamplePackageB"
+    ]
+  },
+  "pkgConfig" : null,
+  "platforms" : [
+
+  ],
+  "products" : [
+    {
+      "name" : "SamplePackageB",
+      "settings" : [
+
+      ],
+      "targets" : [
+        "SamplePackageB"
+      ],
+      "type" : {
+        "library" : [
+          "automatic"
+        ]
+      }
+    },
+    {
+      "name" : "3rdPartyResources",
+      "settings" : [
+
+      ],
+      "targets" : [
+        "3rdPartyResources"
+      ],
+      "type" : {
+        "library" : [
+          "automatic"
+        ]
+      }
+    },
+    {
+      "name" : "3rdPartyAdapter",
+      "settings" : [
+
+      ],
+      "targets" : [
+        "3rdPartyAdapter"
+      ],
+      "type" : {
+        "library" : [
+          "automatic"
+        ]
+      }
+    }
+  ],
+  "providers" : null,
+  "swiftLanguageVersions" : null,
+  "targets" : [
+    {
+      "dependencies" : [
+
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "SamplePackageB",
+      "packageAccess" : true,
+      "resources" : [
+
+      ],
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "SamplePackageB",
+            null
+          ]
+        },
+        {
+          "byName" : [
+            "3rdPartyResources",
+            null
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "3rdPartyAdapter",
+      "packageAccess" : true,
+      "resources" : [
+
+      ],
+      "settings" : [
+        {
+          "kind" : {
+            "linkedFramework" : {
+              "_0" : "AuthenticationServices"
+            }
+          },
+          "tool" : "linker"
+        },
+        {
+          "kind" : {
+            "linkedFramework" : {
+              "_0" : "CoreLocation"
+            }
+          },
+          "tool" : "linker"
+        },
+        {
+          "kind" : {
+            "linkedFramework" : {
+              "_0" : "LocalAuthentication"
+            }
+          },
+          "tool" : "linker"
+        }
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "target" : [
+            "OneSignal",
+            {
+              "platformNames" : [
+                "ios"
+              ]
+            }
+          ]
+        },
+        {
+          "target" : [
+            "OneSignalCore",
+            {
+              "platformNames" : [
+                "ios"
+              ]
+            }
+          ]
+        },
+        {
+          "target" : [
+            "OneSignalExtension",
+            {
+              "platformNames" : [
+                "ios"
+              ]
+            }
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "3rdPartyResources",
+      "packageAccess" : true,
+      "resources" : [
+        {
+          "path" : "Resources/3pa.sdk.bundle",
+          "rule" : {
+            "copy" : {
+
+            }
+          }
+        }
+      ],
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "OneSignal",
+      "packageAccess" : false,
+      "path" : "Frameworks/OneSignal.xcframework",
+      "resources" : [
+
+      ],
+      "settings" : [
+
+      ],
+      "type" : "binary"
+    },
+    {
+      "dependencies" : [
+
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "OneSignalCore",
+      "packageAccess" : false,
+      "path" : "Frameworks/OneSignalCore.xcframework",
+      "resources" : [
+
+      ],
+      "settings" : [
+
+      ],
+      "type" : "binary"
+    },
+    {
+      "dependencies" : [
+
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "OneSignalExtension",
+      "packageAccess" : false,
+      "path" : "Frameworks/OneSignalExtension.xcframework",
+      "resources" : [
+
+      ],
+      "settings" : [
+
+      ],
+      "type" : "binary"
+    },
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "SamplePackageB",
+            null
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "SamplePackageBTests",
+      "packageAccess" : true,
+      "resources" : [
+
+      ],
+      "settings" : [
+
+      ],
+      "type" : "test"
+    }
+  ],
+  "toolsVersion" : {
+    "_version" : "5.9.0"
+  }
+}

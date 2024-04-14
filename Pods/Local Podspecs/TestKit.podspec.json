@@ -1,0 +1,31 @@
+{
+  "name": "TestKit",
+  "version": "1.0",
+  "summary": "TestKit",
+  "homepage": "https://google.com",
+  "license": {
+    "type": "Proprietary"
+  },
+  "authors": {
+    "": ""
+  },
+  "source": {
+    "http": "",
+    "type": ""
+  },
+  "description": "TODO: Add long description of the pod here. Indents inside this block are removed by cocoapods",
+  "source_files": "lib/sources/**/*.swift",
+  "resources": "lib/resources/**/*",
+  "ios": {
+    "frameworks": [
+      "UIKit",
+      "Foundation"
+    ]
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "samplepackagea",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kalub92/SamplePackageA.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "856f8c68b5b03cda46906523691d62092ae45b4f"
+      }
+    },
+    {
+      "identity" : "samplepackageainterface",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kalub92/SamplePackageAInterface.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7e98beb8a9bbe64fdd0b233856b50a1909752277"
+      }
+    },
+    {
+      "identity" : "samplepackageb",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kalub92/SamplePackageB.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f180be4244d3ab3b0cd7e23f68c0d8eb7ab130f5"
+      }
+    }
+  ],
+  "version" : 2
+}

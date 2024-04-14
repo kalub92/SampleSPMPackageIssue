@@ -1,0 +1,6 @@
+module TestKit {
+  umbrella header "TestKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
